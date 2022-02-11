@@ -9,11 +9,7 @@ public class CoordinatesInput {
         this.scanner = new Scanner(System.in);
     }
 
-    public int valueOfX() {
-        return scanner.nextInt();
-    }
-
-    public int valueOfY() {
+    public int enterValue() {
         return scanner.nextInt();
     }
 }

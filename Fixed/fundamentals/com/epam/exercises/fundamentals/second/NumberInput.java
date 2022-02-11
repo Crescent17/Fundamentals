@@ -9,15 +9,7 @@ public class NumberInput {
         this.scanner = new Scanner(System.in);
     }
 
-    public int firstNumberInput() {
-        return scanner.nextInt();
-    }
-
-    public int secondNumberInput() {
-        return scanner.nextInt();
-    }
-
-    public int thirdNumberInput() {
+    public int enterValue() {
         return scanner.nextInt();
     }
 }

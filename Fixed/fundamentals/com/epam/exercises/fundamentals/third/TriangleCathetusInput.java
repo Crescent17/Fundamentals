@@ -9,11 +9,8 @@ public class TriangleCathetusInput {
         this.scanner = new Scanner(System.in);
     }
 
-    public double firstCathetusInput() {
-        return scanner.nextInt();
+    public double cathetusInput() {
+        return scanner.nextDouble();
     }
 
-    public double secondCathetusInput() {
-        return scanner.nextInt();
-    }
 }
