@@ -10,6 +10,9 @@ public class NumberInput {
     }
 
     public String enterValue() {
-        return scanner.next();
+        System.out.print("Enter the number: ");
+        String value = scanner.next();
+        scanner.nextLine();
+        return value;
     }
 }

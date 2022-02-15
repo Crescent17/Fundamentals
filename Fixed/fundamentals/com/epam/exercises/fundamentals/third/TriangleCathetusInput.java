@@ -10,7 +10,21 @@ public class TriangleCathetusInput {
     }
 
     public double cathetusInput() {
-        return scanner.nextDouble();
+        double value;
+        while (true) {
+            System.out.print("Enter the value of the cathetus: ");
+            while (!scanner.hasNextDouble()) {
+                System.out.println("Incorrect value!");
+                scanner.nextLine();
+            }
+            value = scanner.nextDouble();
+            if (value > 0) {
+                break;
+            } else {
+                System.out.println("Negative number is forbidden!");
+            }
+        }
+        return value;
     }
 
 }

@@ -1,6 +1,6 @@
 package com.epam.exercises.fundamentals.second;
 
-import com.epam.exercises.fundamentals.first.NumberInput;
+import com.epam.exercises.fundamentals.second.NumberInput;
 
 public class Main {
     public static void main(String[] args) {

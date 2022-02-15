@@ -10,6 +10,10 @@ public class CoordinatesInput {
     }
 
     public int enterValue() {
+        while (!scanner.hasNextInt()) {
+            System.out.println("It's not a number!");
+            scanner.nextLine();
+        }
         return scanner.nextInt();
     }
 }

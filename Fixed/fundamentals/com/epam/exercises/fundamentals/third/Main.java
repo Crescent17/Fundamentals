@@ -1,6 +1,6 @@
 package com.epam.exercises.fundamentals.third;
 
-import com.epam.exercises.fundamentals.second.ResultOutput;
+import com.epam.exercises.fundamentals.third.ResultOutput;
 
 public class Main {
     public static void main(String[] args) {
