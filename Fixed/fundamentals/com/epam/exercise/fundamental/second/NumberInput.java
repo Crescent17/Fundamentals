@@ -1,18 +1,19 @@
-package com.epam.exercises.fundamentals.fourth;
+package com.epam.exercise.fundamental.second;
 
 import java.util.Scanner;
 
-public class CoordinatesInput {
+public class NumberInput {
     private final Scanner scanner;
 
-    public CoordinatesInput() {
+    public NumberInput() {
         this.scanner = new Scanner(System.in);
     }
 
     public int enterValue() {
+        System.out.print("Enter the value of number: ");
         while (!scanner.hasNextInt()) {
             System.out.println("It's not a number!");
-            scanner.nextLine();
+            scanner.next();
         }
         return scanner.nextInt();
     }

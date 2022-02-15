@@ -1,4 +1,4 @@
-package com.epam.exercises.fundamentals.second;
+package com.epam.exercise.fundamental.second;
 
 public class ResultOutput {
     public void printResult(double result) {

@@ -1,4 +1,4 @@
-package com.epam.exercises.fundamentals.second;
+package com.epam.exercise.fundamental.second;
 
 public class FormulaLogic {
     public double formula(int a, int b, int c) {

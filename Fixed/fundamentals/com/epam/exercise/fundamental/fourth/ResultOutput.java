@@ -1,4 +1,4 @@
-package com.epam.exercises.fundamentals.fourth;
+package com.epam.exercise.fundamental.fourth;
 
 public class ResultOutput {
     public void printResult(boolean inTheArea) {

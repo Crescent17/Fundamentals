@@ -1,4 +1,4 @@
-package com.epam.exercises.fundamentals.third;
+package com.epam.exercise.fundamental.third;
 
 public class PerimeterAndSquareLogic {
     public double hypotenuseLength(double firstCathetusLength, double secondCathetusLength) {

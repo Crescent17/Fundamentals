@@ -1,4 +1,4 @@
-package com.epam.exercises.fundamentals.fourth;
+package com.epam.exercise.fundamental.fourth;
 
 public class PointLogic {
     public boolean isThePointInTheArea(int x, int y) {

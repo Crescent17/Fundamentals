@@ -1,4 +1,4 @@
-package com.epam.exercises.fundamentals.first;
+package com.epam.exercise.fundamental.first;
 
 import java.util.Scanner;
 

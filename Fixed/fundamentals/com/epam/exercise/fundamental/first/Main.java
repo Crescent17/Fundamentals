@@ -1,4 +1,4 @@
-package com.epam.exercises.fundamentals.first;
+package com.epam.exercise.fundamental.first;
 
 public class Main {
     public static void main(String[] args) {
