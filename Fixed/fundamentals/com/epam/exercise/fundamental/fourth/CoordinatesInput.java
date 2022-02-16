@@ -3,6 +3,7 @@ package com.epam.exercise.fundamental.fourth;
 import java.util.Scanner;
 
 public class CoordinatesInput {
+    @SuppressWarnings("input")
     private final Scanner scanner;
 
     public CoordinatesInput() {

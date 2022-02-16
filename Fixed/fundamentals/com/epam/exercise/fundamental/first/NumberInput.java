@@ -3,6 +3,7 @@ package com.epam.exercise.fundamental.first;
 import java.util.Scanner;
 
 public class NumberInput {
+    @SuppressWarnings("input")
     private final Scanner scanner;
 
     public NumberInput() {

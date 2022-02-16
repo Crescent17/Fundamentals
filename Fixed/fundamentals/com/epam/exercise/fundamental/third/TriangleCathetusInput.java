@@ -3,6 +3,7 @@ package com.epam.exercise.fundamental.third;
 import java.util.Scanner;
 
 public class TriangleCathetusInput {
+    @SuppressWarnings("resource")
     private final Scanner scanner;
 
     public TriangleCathetusInput() {
